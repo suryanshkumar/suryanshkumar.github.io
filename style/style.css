@@ -1,0 +1,202 @@
+body {
+margin-left:10%;
+    margin-right:10%;
+    width:80%;
+    color:#404040;
+    /*font-family: 'Dosis',sans-serif;*/
+    font-family: 'Lucida Console';
+    font-size: 17px;
+    border:solid 0px;
+    overflow-y: scroll;
+    transition: 1s;
+}
+
+.navbar{
+	margin-left: 10%;
+	margin-right: 10%;
+	list-style-type: none;
+	display: inline;
+}
+/*
+#wrapper {
+	width:850px;
+}*/
+
+#heading {
+    float: left;
+    width:100%;
+    display:block;
+    border-radius: 10px;
+    height:17em;
+    border-left: solid #fb925e;
+    border-right: solid #50c878;
+    background-color: #ffffff;
+}
+
+#heading a{
+    color: #404040;
+}
+
+#icons i
+{
+    font-size: 150%;
+    padding: 0.2em;
+}
+
+#icons a{
+    color: #909090;
+    -o-transition: 1s ease-out;
+    -ms-transition: 1s ease-out;
+    -moz-transition: 1s ease-out;
+    -webkit-transition: 1s ease-out;
+    transition: 1s;
+}
+
+#icons a:hover{
+    color:#404040;
+}
+
+.responsive-image{
+	border-radius:30%;
+	margin-right:5%;
+	margin-top: 2%;
+	height: 14em;
+}
+
+#bannertext {
+	float:left;
+	width: 50%;
+	vertical-align:middle;
+	float:left;
+	text-align:center;
+	font-size: 100%;
+	margin-left:3%;
+	margin-top: 3%;
+	margin-bottom:2%;
+}
+
+#content{
+	width: 95%;
+	margin-left:auto;
+	margin-right:auto;
+}
+#head_container {
+	text-align: justify;
+	text-justify: inter-word;
+	float:left;
+	display:inline-block;
+	width:92%;
+    	padding:0 1% 1% 2%;
+}
+#left_container {
+  font-family: 'Lucida Console';
+  font-size: 72%;
+	text-align: justify;
+	text-justify: inter-word;
+	float:left;
+	display:inline-block;
+	width:35%;
+    	padding:0 1% 1% 2%;
+}
+
+#right_container{
+	display:inline-block;
+  font-family: 'Lucida Console';
+  font-size: 72%;
+	width: 60%;
+	float:right;
+	height:auto;
+}
+
+
+div.paper {
+  clear: both;
+  font-family: 'Lucida Console';
+  font-size: 100%;
+  margin-top: 0.5em;
+  margin-bottom: 1em;
+  border: 1px solid #ddd;
+  background: #fff;
+  padding: 1em 1em 1em 1em;
+}
+
+div.paper div {
+  padding-left: 200px;
+}
+
+img.paper {
+  margin-bottom: 0.5em;
+  float: left;
+  width: 150px;
+  height: 60;
+}
+
+.proj-header{
+	width: 100%;
+	float: left;
+}
+
+.proj-left{
+	text-align: justify;
+	text-justify: inter-word;
+	width: 50%;
+	float: left;
+	display: inline-block;
+}
+
+.proj-right{
+	width: 45%;
+	float: right;
+	display: inline-block;
+}
+
+#footer {
+	padding:1px;
+	text-align: center;
+	bottom: 0;
+}
+
+
+a {
+    /*color:#0088aa;*/
+	font-family:'Lucida Console';
+	color:#50c878;
+	text-decoration:none;
+}
+
+a:hover {
+	color:#003388;
+	text-decoration:underline;
+}
+
+label {
+	display:inline-block;
+	width:9em;
+}
+
+fieldset {
+	border: thin solid #006644;
+}
+
+.errors {
+	color:#ff0000;
+	font-weight:bolder;
+}
+
+@media(max-width: 800px) {
+
+   body { font-size: 12px; }
+   .responsive-image{margin-right: 12%;}
+}
+
+@media(max-width: 560px) {
+
+   body { font-size: 9px; }
+   .responsive-image{margin-right: 12%;}
+}
+
+@media(max-width: 400px) {
+
+   body { font-size: 7px; }
+   .responsive-image{margin-right: 12%;}
+}
