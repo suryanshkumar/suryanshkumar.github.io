@@ -3,7 +3,7 @@ body {
     /*width: calc(100% - 120px);*/
     color:#404040;
     /*font-family: 'Dosis',sans-serif;*/
-    font-family: 'Lucida Console';
+    /*font-family: 'Lucida Console';*/
     font-size: 17px;
     /*border:solid 0px;*/
     -webkit-transition:1s;
@@ -94,7 +94,7 @@ body {
 	margin-bottom:2%;
 }
 #left_container {
-  font-family: 'Lucida Console';
+  /*font-family: 'Lucida Console';*/
   /*font-size: 72%;*/
 	text-align: justify;
 	text-justify: inter-word;
@@ -106,7 +106,7 @@ body {
 
 #right_container{
 	/*display:inline-block;*/
-  font-family: 'Lucida Console';
+  /*font-family: 'Lucida Console';*/
   /*font-size: 72%;*/
 	/*width: 60%;*/
 	/*float:right;*/
@@ -116,7 +116,7 @@ body {
 
 div.paper {
   clear: both;
-  font-family: 'Lucida Console';
+  /*font-family: 'Lucida Console';*/
   font-size: 100%;
   margin-top: 0.5em;
   margin-bottom: 1em;
@@ -164,7 +164,7 @@ img.paper {
 
 a {
     /*color:#0088aa;*/
-	font-family:'Lucida Console';
+	/*font-family:'Lucida Console';*/
 	color:#50c878;
 	text-decoration:none;
 }
