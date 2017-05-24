@@ -54,7 +54,7 @@ body {
 }
 
 #icons a:hover{
-    color:#404040;
+    color:#904040;
 }
 .profile-description{
 
@@ -69,11 +69,11 @@ body {
     text-align: right;
 }
 .responsive-image{
-	/*border-radius:30%;*/
+	border-radius:50%;
 	/*margin-right:5%;
 	margin-top: 2%;*/
-  width: 300px;
-  max-height: 260px;
+  width: 150px;
+  max-height: 200px;
   object-fit: contain;
   -o-object-fit: contain;
 	/*height: 14em;*/
