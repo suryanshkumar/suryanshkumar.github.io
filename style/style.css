@@ -95,7 +95,7 @@ body {
 }
 #left_container {
   /*font-family: 'Lucida Console';*/
-  /*font-size: 72%;*/
+  font-size: 92%;
 	text-align: justify;
 	text-justify: inter-word;
 	/*float:left;*/
@@ -107,8 +107,8 @@ body {
 #right_container{
 	/*display:inline-block;*/
   /*font-family: 'Lucida Console';*/
-  /*font-size: 72%;*/
-	/*width: 60%;*/
+  /*font-size: 90%;*/
+	/*width: 65%;*/
 	/*float:right;*/
 	/*height:auto;*/
 }
@@ -190,10 +190,14 @@ fieldset {
 .publication-item{
   margin-bottom: 1em;
   border: 1px solid #ddd;
-  background: #fff;
+  background-color:#eee;
   padding: 1em 1em 1em 1em;
+  box-shadow: 0 0 10px .1px;
   text-align: center;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, .1);
   width: 300px;
+  border-radius:6px;
+  overflow: hidden;
   clear: both;
 }
 .publication-img{
