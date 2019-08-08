@@ -179,7 +179,7 @@ fieldset {
 .publication-item{
   margin-bottom: 1em;
   /*border: 1px solid #eee;*/
-  background-color:#fff;
+  background-color:#ffff;
   padding: 1em 1em 1em 1em;
   /*box-shadow: 0 0 1px .1px;*/
   text-align: center;
@@ -188,6 +188,7 @@ fieldset {
   border-radius:1px;
   overflow: hidden;
   clear: both;
+  border-bottom: 1px solid #C2D9EA;
 }
 .publication-img{
   padding: 0 !important;
