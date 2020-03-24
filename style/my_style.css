@@ -1,0 +1,57 @@
+body {
+	padding-top: 50px;
+}
+
+.main {
+	padding: 15px 0px;
+	text-align: left;	
+}
+
+#map-canvas {
+	width: 100%;
+    height: 400px;
+	margin: 0px;
+	padding: 0px;
+}
+
+td {
+	vertical-align: top;
+}
+
+ul {
+	margin: 25px;
+	padding: 0px;
+}
+
+/* big screen sizes */
+@media (min-width:1001px) {
+	.mobile-only {
+		display:none !important;
+	}
+	.desktop-only {
+		display:block !important;
+	}
+}
+
+/* small screen sizes */
+@media (max-width:1000px) {
+	.mobile-only {
+		display:block !important;
+	}
+	.desktop-only {
+		display:none !important;
+	}
+}
+
+.blockquote-reverse {
+	font-size: 15px;
+}
+
+/*
+.media-object {
+	position: relative;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, 0%) ;
+};
+*/
