@@ -23,7 +23,6 @@
   <link  rel="stylesheet" href="./style/twitter-bootstrap.css"/><link  rel="stylesheet" href="./style/style.css" />
 
   <script  src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script><script  src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"></script><script  src="/scripts/bootstrap.min.js"></script><script  src="/scripts/script.js"></script>
-
 </head>
 
 <body>
@@ -42,6 +41,7 @@
         <ul class="nav navbar-nav">
           <li class="active"><a href="https://suryanshkumar.github.io/" style="color:#50c878">Home</a></li>
           <li><a href="https://suryanshkumar.github.io/publications.html" style="color:#50c878">Publications</a></li>
+          <li><a href="https://suryanshkumar.github.io/projects.html" style="color:#50c878">Projects</a></li>
         </ul>
       </div>
     </div>
@@ -91,10 +91,10 @@
 
     <p style="color:#000000; text-shadow: 10px 6px 6px rgba(0, 0, 9,0.23)"><font style="font-family: Georgia; font-variant: small-caps; font-size: 150%">Recent News</font></p>
 
-    <div class="row">
+    <!--div class="row">
       <div class="col-sm-2"><strong>Jun. 2020</strong></div>
       <div class="col-sm-10">Project Page for <a href = "https://suryanshkumar.github.io/Non-Rigid-Structure-from-Motion/">Non-Rigid Structure from Motion <i class="fa fa-link" style="color: #bb0000"></i></a> is now online.</div>
-    </div>
+    </div-->
 
     <div class="row">
       <div class="col-sm-2"><strong>Mar. 2020</strong></div>
@@ -176,11 +176,8 @@
         <ul>
           <li><b>Erik Sandström </b>(Ph.D), ETH Zurich (Nov. 19-). Topic: 3D Vision.</li>
           <li><b>Berk Kaya</b> (Ph.D), ETH Zurich (Nov. 19-). Topic: 3D Vision.</li>
-          <li><b>Anton Obukhov</b> (Ph.D), (Aug. 20-) Topic: Tensor Factorization.</li>
           <li><b>Sarno Francesco</b> (M.S), ETH Zurich (Sept. 20-). Topic: Neural Architecture Search.</li>
           <li><b>Menini Davide</b> (M.S), ETH Zurich (Sept. 20-). Topic: 3D Vision.</li>
-          <li><b>Yan Wu</b> (M.S), ETH Zurich (July 20-).  Topic: Differentiable Architecture Search.</li>
-          <li><b>Serafino Samuele</b> (M.S), ETH Zurich (Sept. 20-). Topic: Lie Groups.</li>
           <li><b>Rhea Sukthanker</b> (M.S), ETH Zurich (Sept. 20-). Topic: Video Processing.</li>
         </ul>
       </p>
@@ -199,6 +196,38 @@
       <div class="panel-body">
       <p style="color:#000000; text-shadow: 10px 6px 6px rgba(0, 0, 9,0.23)"><font style="font-family: Lora; font-size: 90%">
         <ul>
+
+          <li><b>Yan Wu</b> (M.S), ETH Zurich (Sept. 20-Nov. 20).<br/>
+            Topic: Trilevel Neural Architecture Search for Efficient Single Image Super-Resolution.
+            <span>
+               <!--For Report-->
+              <i class="fa fa-file-pdf-o" style="color: #bb0000">&nbsp;&nbsp;<a
+                  onclick="_gaq.push(['_trackEvent', 'Pub', 'Download', 'arxiv20']);" target="_blank"
+                  href="MS_projects/2020/yan_sem_09_12_2020_doc.pdf">doc</a>
+              </i>
+              <!--For Presentation-->
+              <i class="fa fa-file-pdf-o" style="color: #0000bb">&nbsp;&nbsp;<a
+                  onclick="_gaq.push(['_trackEvent', 'Pub', 'Download', 'arxiv20']);" target="_blank"
+                  href="MS_projects/2020/yan_sem_09_12_2020_ppt.pdf">ppt</a>
+              </i>
+            </span>
+          </li>
+
+          <li><b>Serafino Samuele</b> (M.S), ETH Zurich (Sept. 20-Dec. 20).<br/>
+            Topic: Neural Architecture Search on Lie Groups for Skeleton-based Action Recognition.
+            <span>
+               <!--For Report-->
+              <i class="fa fa-file-pdf-o" style="color: #bb0000">&nbsp;&nbsp;<a
+                  onclick="_gaq.push(['_trackEvent', 'Pub', 'Download', 'arxiv20']);" target="_blank"
+                  href="MS_projects/2020/samuele_sem_10_12_2020_doc.pdf">doc</a>
+              </i>
+              <!--For Presentation-->
+              <i class="fa fa-file-pdf-o" style="color: #0000bb">&nbsp;&nbsp;<a
+                  onclick="_gaq.push(['_trackEvent', 'Pub', 'Download', 'arxiv20']);" target="_blank"
+                  href="MS_projects/2020/samuele_sem_10_06_2020_ppt.pdf">ppt</a>
+              </i>
+            </span>
+          </li>
 
           <li><b>Erik Goron</b> (M.S), ETH Zurich (Mar. 20-June 20).<br/>
             Topic: Neural Architecture Search of SPD Manifold Nets: A Geometric Perspective.
@@ -270,20 +299,66 @@
         <p style="color:#000000; text-shadow: 10px 6px 6px rgba(0, 0, 9,0.23)"><font style="font-family: Georgia; font-variant: small-caps; font-size: 200%">Recent Publications</font></p>
       </div>
       <div class="panel-body">
+        <!---->
+        <div class="publication-item col-md-12 col-sm-12 col-xs-12">
+              <img class="publication-img col-md-2 col-sm-6 col-xs-12" title="Preprint" style="box-shadow: 0px 1px 10px #444;" src="files/Tablet_Light_Effect_1.png" />
+              <div class="publication-description col-md-10 col-sm-7 col-xs-12">
+                <h5 style="color: #5b527a"><font style="font-family: Lora;font-size: 90%">Uncalibrated Neural Inverse Rendering for Photometric Stereo of General Surfaces</font></h5>
+                <strong> Authors</strong>: Berk Kaya, <a style="color: #ff6600"> Suryansh Kumar</a>, Carlos Oliveira, Vittorio Ferrari, Luc van Gool.<br/>
+                arXiv 2021. <br/>
+                <span>
+                  <br>
+                  <i class="fa fa-link" style="color: #bb0000">&nbsp;&nbsp;<a onclick="_gaq.push(['_trackEvent', 'Pub', 'Download', '']);" target="_blank" href="">Project Website (Coming Soon)</a></i>
+                </span>
+              </div>
+        </div>
+        <!----->
+
+        <!---->
+        <div class="publication-item col-md-12 col-sm-12 col-xs-12">
+              <img class="publication-img col-md-2 col-sm-6 col-xs-12" title="Preprint" style="box-shadow: 0px 1px 10px #444;" src="files/TrilevelNAS.png" />
+              <div class="publication-description col-md-10 col-sm-7 col-xs-12">
+                <h5 style="color: #5b527a"><font style="font-family: Lora;font-size: 90%">Trilevel Neural Architecture Search for Efficient Single Image Super-Resolution</font></h5>
+                <strong> Authors</strong>: Yan Wu, Zhiwu Huang, <a style="color: #ff6600"> Suryansh Kumar</a>, Rhea Sukthanker, Luc van Gool.<br/>
+                arXiv 2021<br/>
+                <span>
+                  <br>
+                  <i class="fa fa-link" style="color: #bb0000">&nbsp;&nbsp;<a onclick="_gaq.push(['_trackEvent', 'Pub', 'Download', '']);" target="_blank" href="">Project Website (Coming Soon)</a></i>
+                </span>
+              </div>
+        </div>
+        <!----->
+
+        <!---->
+        <div class="publication-item col-md-12 col-sm-12 col-xs-12">
+              <img class="publication-img col-md-2 col-sm-6 col-xs-12" title="Preprint" style="box-shadow: 0px 1px 10px #444;" src="files/SPD_Net.png" />
+              <div class="publication-description col-md-10 col-sm-7 col-xs-12">
+                <h5 style="color: #5b527a"><font style="font-family: Lora;font-size: 90%">Neural Architecture Search of SPD Manifold Networks</font></h5>
+                <strong> Authors</strong>: Rhea Sukthanker, Zhiwu Huang, <a style="color: #ff6600"> Suryansh Kumar</a>, Erik Goron. E, Yan Wu, Luc van Gool.<br/>
+                arXiv 2020<br/>
+                <span>
+                  <br>
+                  <i class="fa fa-link" style="color: #bb0000">&nbsp;&nbsp;<a onclick="_gaq.push(['_trackEvent', 'Pub', 'Download', 'ICLR21']);" target="_blank" href="">Project Website (Coming Soon)</a></i>
+                </span>
+              </div>
+        </div>
+        <!----->
+
+
+        <!---->
         <div class="publication-item col-md-12 col-sm-12 col-xs-12">
               <img class="publication-img col-md-2 col-sm-6 col-xs-12" title="Preprint" style="box-shadow: 0px 1px 10px #444;" src="files/ironman.png" />
               <div class="publication-description col-md-10 col-sm-7 col-xs-12">
                 <h5 style="color: #5b527a"><font style="font-family: Lora;font-size: 90%">Non-rigid Structure from Motion: Prior-Free Factorization Method Revisited</font></h5>
-                <a><strong>Author</strong>: <a style="color: #ff6600">Suryansh Kumar</a>.<br/>
+                <strong>Author</strong>: <a style="color: #ff6600">Suryansh Kumar</a>.<br/>
                 Winter Conference on Applications of Computer Vision (<strong><span style="color:black">WACV</span></strong>), IEEE, 2020, Colorado, USA. <br/>
-                </a>
                 <span>
                   <br>
                   <i class="fa fa-link" style="color: #bb0000">&nbsp;&nbsp;<a onclick="_gaq.push(['_trackEvent', 'Pub', 'Download', 'WACV20']);" target="_blank" href="https://suryanshkumar.github.io/prior-free-revisited-wacv2020/">Project Website</a></i>
                 </span>
               </div>
-          </div>
-          <a href="https://suryanshkumar.github.io/publications.html">List of previous publications</a>
+        </div>
+        <!----->
       </div>
     </div>
   </div>
